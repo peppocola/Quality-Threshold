@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor">
+
+    <LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    tools:context=".MainActivity"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:padding="10sp">
+
+    <TextView
+        android:id="@+id/titolox"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/textcolor"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:id="@+id/askTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectTable"
+        android:textColor="?attr/textcolor"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="53dp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/askRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectRadius"
+        android:textColor="?attr/textcolor"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/insRadius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/defaultValue"
+        android:inputType="numberDecimal"
+        android:textColor="?attr/textcolor" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/eseguifc"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="?attr/buttoncolor"
+        android:textColor="#fff"
+        android:text="@string/esegui" />
+
+</LinearLayout>
+</ScrollView>

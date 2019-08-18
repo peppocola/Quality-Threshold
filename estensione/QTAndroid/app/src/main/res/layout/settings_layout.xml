@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/insertIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/address"
+        android:textColor="?attr/textcolor"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:hint="@string/addressExample"
+        android:textColor="?attr/textcolor" />
+
+    <TextView
+        android:id="@+id/insertPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="11dp"
+        android:text="@string/port"
+        android:textStyle="bold"
+        android:textColor="?attr/textcolor"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:digits="0123456789"
+        android:hint="@string/portExample"
+        android:inputType="number"
+        android:textColor="?attr/textcolor" />
+
+</LinearLayout>
+</ScrollView>

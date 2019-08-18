@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">QTAndroid</string>
+    <string name="welcome">Benvenuto in QTAndroid</string>
+    <string name="day_night">Day/Night</string>
+    <string name="description">"QTAndroid è un client che permette di visualizzare i risultati di un clustering effettuato su server direttamente dallo smartphone!"</string>
+    <string name="discover">"Dettagli"</string>
+
+    <string name="details">
+"Il clustering effettuato da QTAndroid utilizza l'algoritmo del QualityThreshold (QT). Il clustering QT (Heyer, Kruglyak, Yooseph, 1999) è un metodo alternativo di partizionamento dei dati, inventato per il clustering genico. Richiede più potenza di calcolo rispetto a k-means, ma non richiede di specificare il numero di cluster a priori e restituisce sempre lo stesso risultato quando viene eseguito più volte.
+
+L'algoritmo è così definito:
+
+    1. L'utente sceglie un raggio massimo per i cluster.
+
+    2. Costruire un cluster candidato per ogni punto includendo i punto con distanza inferiore al raggio.
+
+    3. Salvare il cluster candidato con il maggior numero di punti come primo vero cluster e rimuovere tutti i punti del cluster per evitare che vengano ri-esaminati. Si stabilisce cosa succede se più di un cluster ha il numero massimo di punti.
+
+    4. Ripetere dal punto 2 con il set ridotto di punti se il set non è vuoto."
+
+    </string>
+
+    <string name="start">"Inizia subito!"</string>
+    <string name="instructions">"Puoi scegliere di visualizzare un clustering già salvato su server inserendo il nome del file. Oppure puoi effettuare un nuovo clustering.\n(Connessione ad internet richiesta)"</string>
+    <string name="newcluster">"Crea un nuovo clustering"</string>
+    <string name="selectTable">"Seleziona il nome della tabella:"</string>
+    <string name="selectRadius">"Inserisci il raggio:"</string>
+    <string name="filecluster">"Carica da file"</string>
+    <string name="esegui"> "Vai"</string>
+    <string name="defaultValue"> "0.00"</string>
+    <string name="defaultString"> "PlayTennis"</string>
+
+    <string name="alertConnection">"Connessione Assente"</string>
+    <string name="alertConnectionMessage">"Non posso contattare il server senza una connessione ad internet!"</string>
+    <string name="retry">"Riprova"</string>
+    <string name="close">"Termina"</string>
+
+    <string name="exit">"Vuoi uscire dall'applicazione?"</string>
+    <string name="si">"Sì"</string>
+    <string name="no">"No"</string>
+    <string name="ok">"OK"</string>
+
+    <string name="noSelect">"Seleziona un'opzione!"</string>
+    <string name="contacts">"Contatti"</string>
+    <string name="feedback">"Feedback"</string>
+    <string name="other">"Altro"</string>
+
+    <string name="fill">"Riempi tutti i campi!"</string>
+    <string name="zeroradius">"Il raggio deve essere maggiore di 0!"</string>
+
+    <string name="ServerUnreachableTitle">"Server irraggiungibile"</string>
+    <string name="ServerUnreachableMessage">"Non riesco a contattare il server&#8230;"</string>
+
+    <string name="DisplayResultsTitle">"Ecco i tuoi risultati!"</string>
+    <string name="Home">"Torna alla Home"</string>
+    <string name="Cluster">"Torna indietro"</string>
+
+    <string name="ContactsText">"Il progetto è stato realizzato da:"</string>
+    <string name="Contributor1">"&#8226; <a href="http://github.com/peppocola">Giuseppe Colavito"</a></string>
+    <string name="Contributor2">"&#8226; <a href="http://github.com/paologas91">Paolo Gasparro"</a></string>
+    <string name="Contributor3">"&#8226; <a href="http://github.com/GreenSully">Antonio Grisulli"</a></string>
+
+    <string name="GoToNewCluster">"Passa a \"Crea un nuovo cluster\""</string>
+
+    <string name="TitleFNF">"Il file non esiste"</string>
+    <string name="MessageFNF">"Il file ricercato non esiste."</string>
+
+    <string name="TitleIsFull">"Raggio troppo grande"</string>
+    <string name="MessageIsFull">"Tutti i dati sono finiti nello stesso cluster, prova a selezionare un raggio più piccolo."</string>
+
+    <string name="TitleIsEmpty">"Insieme vuoto!"</string>
+    <string name="MessageIsEmpty">"Nessun dato da clusterizzare&#8230;\nProva a selezionare un'altra tabella"</string>
+    <string name="ConnectionOK">Connessione stabilita! Premi VAI!</string>
+
+    <string name="settings">"Impostazioni"</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="address">"Inserire indirizzo"</string>
+    <string name="port">"Inserire porta"</string>
+    <string name="addressExample">"192.168.0.1"</string>
+    <string name="portExample">"8080"</string>
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:padding="10sp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titolo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:textColor="?attr/textcolor"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textColor="?attr/textcolor"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/details"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="?attr/buttoncolor"
+                android:textColor="#fff"
+                android:text="@string/discover" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:textColor="?attr/textcolor"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/instructions"
+                android:textColor="?attr/textcolor"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/newcluster"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkRadio"
+                    android:text="@string/newcluster"
+                    android:textColor="?attr/textcolor" />
+
+                <RadioButton
+                    android:id="@+id/filecluster"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkRadio"
+                    android:text="@string/filecluster"
+                    android:textColor="?attr/textcolor" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="end">
+
+                <ProgressBar
+                    android:id="@+id/progress_circular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:indeterminate="true"
+                    android:indeterminateTint="?attr/buttoncolor" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/esegui"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="?attr/buttoncolor"
+                    android:textColor="#fff"
+                    android:text="@string/esegui" />
+
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/DarkSwitch"
+                android:layout_width="130dp"
+                android:layout_height="63dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:text="@string/day_night"
+                android:textColor="?attr/textcolor"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

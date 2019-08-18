@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2175F3</color>
+    <color name="colorPrimaryDark">#013C64</color>
+    <color name="colorAccent">#2175F3</color>
+    <color name="backgroundday">#fcfcfc</color>
+    <color name="cardbackgroundday">#ffffff</color>
+    <color name="textday">#303030</color>
+    <color name="tintday">#000000</color>
+    <color name="buttonday">#2175F3</color>
+
+    <color name="colorPrimarynight">#212121</color>
+    <color name="colorPrimaryDarknight">#000000</color>
+    <color name="colorAccentnight">#D60951</color>
+    <color name="backgroundnight">#303030</color>
+    <color name="cardbackgroundnight">#ffffff</color>
+    <color name="textnight">#ffffff</color>
+    <color name="tintnight">#ffffff</color>
+    <color name="buttonnight">#D60951</color>
+</resources>

@@ -1,0 +1,48 @@
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.dmp
+local.properties
+
+# Eclipse project file
+.settings/
+.classpath
+.project
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Java annotation processor (APT)
+.factorypath
+
+# sbteclipse plugin
+.target
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# OS X
+.DS_Store
+
+# Package Files #
+*.zip
+*.tar.gz
+*.rar
+
+### Gradle ###
+.gradle
+/build/classes
+/build/distributions
+/build/jacoco
+/build/libs
+#/build/scripts
+#/build/test-results
+/build/
